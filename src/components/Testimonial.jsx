@@ -8,7 +8,7 @@ const Testimonial = () => {
       <p className="mt-4 text-gray-600 text-lg font-medium text-center">Real Stories from Those Who Found Home with Us</p>
     <div className='flex flex-wrap justify-center gap-8'>
       {testimonialsData.map((user,index)=>(
-        <div key={index} className='max-w-[340px] border shadow-lg rounded px-8 py-12 text-center'>
+        <div key={index} className='max-w-[300px] border shadow-lg rounded px-8 py-12 text-center'>
            <img className='w-20 h-20 rounded-full mx-auto mb-4' src={user.image} alt="" />
            <h2 className='text-lg text-gray-700 font-medium'>{user.name}</h2>
            <p className='text-gray-500 text-sm'>{user.title}</p>
